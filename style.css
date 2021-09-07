@@ -1,0 +1,310 @@
+@import url("https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  background: transparent;
+  padding: 25px 50px;
+}
+.first {
+  background-color: #2f2f2f;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+.row {
+  width: 100%;
+}
+.img {
+  width: 827px;
+  height: 795px;
+}
+.col-8 {
+  position: relative;
+}
+.col-8 img {
+  width: 1170px;
+  height: 795px;
+  z-index: 1;
+}
+.content {
+  z-index: 2;
+  z-index: 2;
+  position: absolute;
+  top: 200px;
+  left: 292px;
+}
+.content h1 {
+  font-size: 90px;
+  color: #ffc200;
+  font-family: "Grand Hotel", cursive;
+}
+.content p {
+  font-size: 21px;
+  color: #fff;
+  width: 45%;
+  font-weight: 100;
+}
+.container-fluid {
+  padding: 0;
+}
+.logo {
+  width: 150px;
+  height: 40px;
+}
+.nav-link {
+  color: white;
+  font-size: 20px;
+}
+.d-flex {
+  align-items: center;
+}
+.nav-link {
+  color: white;
+  font-size: 20px;
+  margin-right: 50px;
+}
+.search {
+  width: 22px;
+  height: 22px;
+}
+.btn-warning {
+  color: #000;
+  background-color: #ffc200;
+  border-color: #ffc200;
+  font-weight: 600;
+  margin: auto;
+  width: 18%;
+}
+.second {
+  position: relative;
+  top: 694px;
+  margin: auto;
+  padding: 50px 0 0;
+}
+.heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.heading h1 {
+  font-size: 54px;
+  font-family: "Grand Hotel", cursive;
+}
+.heading p {
+  text-align: center;
+  margin-bottom: 8rem;
+  font-size: 18px;
+  width: 40%;
+}
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.center h3 {
+  margin: 20px 0;
+  font-family: "Grand Hotel", cursive;
+  font-size: 30px;
+}
+.center p {
+  width: 50%;
+  text-align: center;
+}
+.third {
+  margin-top: 200px;
+}
+.inside-third {
+  background-image: url(./images/Design2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -2;
+}
+.cent {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.margin {
+  margin-top: 250px;
+}
+.margin h1 {
+  font-family: "Grand Hotel", cursive;
+  font-size: 72px;
+  color: #ffc200;
+  margin-bottom: 1rem;
+}
+.margin p {
+  color: #fff;
+  font-size: 18px;
+  width: 40%;
+  margin-bottom: 2rem;
+}
+.content-third {
+  background-image: url(./images/Design3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -2;
+  position: relative;
+}
+.cont-img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+  width: 100%;
+  padding: 100px 50px;
+}
+.Statistics {
+  position: absolute;
+  top: 150px;
+  margin: auto;
+  width: 100%;
+}
+.Statistics h1 {
+  font-size: 72px;
+  color: #ffc200;
+}
+.Statistics p {
+  color: #fff;
+  font-size: 18px;
+  width: 26%;
+  font-weight: 100;
+}
+.position {
+  position: absolute;
+  top: 500px;
+  display: flex;
+  justify-content: center;
+}
+.circle {
+  border: 4px solid white;
+  border-radius: 150px;
+  width: 250px;
+  height: 250px;
+  padding: 80px;
+  margin-right: 50px;
+}
+.circle h1 {
+  font-size: 36px;
+  color: #ffc200;
+  font-weight: 700;
+  text-align: center;
+}
+.circle p {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+}
+.reverse-third {
+  background-image: url(./images/Design5.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -2;
+  margin-bottom: 100px;
+  background-position: bottom;
+}
+.margins {
+  margin-top: 150px;
+}
+.margins h1 {
+  font-family: "Grand Hotel", cursive;
+  font-size: 72px;
+  color: #ffc200;
+  margin-bottom: 1rem;
+  text-align: center;
+  margin-right: 85px;
+}
+.margins p {
+  color: #fff;
+  font-size: 18px;
+  width: 40%;
+  margin: auto;
+}
+.btns {
+  margin-left: 277px;
+  margin-top: 30px;
+}
+.cents {
+  text-align: center;
+  margin-top: 100px;
+  position: relative;
+  top: -30px;
+}
+.yellow {
+  background-image: url(./images/Image.png);
+  width: 100%;
+  height: 1024px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.para {
+  margin: auto;
+  width: 50%;
+  padding-top: 30%;
+  text-align: center;
+}
+.para p {
+  font-size: 30px;
+}
+.para h1 {
+  font-size: 55px;
+  font-family: "Grand Hotel", cursive;
+}
+.subscribe {
+  background-image: url(./images/Design4.png);
+  width: 100%;
+  height: 900px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.head {
+  max-width: 488px;
+  margin: auto;
+  position: relative;
+  top: 250px;
+}
+.head h1 {
+  font-size: 72px;
+  font-family: "Grand Hotel", cursive;
+  margin-bottom: 1rem;
+}
+.head p {
+  font-size: 20px;
+  margin-bottom: 4rem;
+}
+.form-control {
+  padding: 0.7rem 0.6rem;
+}
+.input-group-text {
+  font-weight: 700;
+  background-color: #ffc200;
+}
+.footer {
+  background-color: #303030;
+  color: #fff;
+  padding: 200px 100px;
+}
+.footer h1 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.footer p {
+  font-size: 16px;
+  font-weight: 400;
+}
+.mx-width {
+  max-width: 350px;
+  margin: 0 auto;
+}
+.mx-width ul {
+  display: flex;
+  padding: 0;
+}
+.mx-width ul li {
+  list-style-type: none;
+  margin-right: 15px;
+}
